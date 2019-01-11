@@ -1,7 +1,9 @@
 # asPtr
 
+[![GoDoc](https://godoc.org/github.com/zeeke/asptr?status.svg)](https://godoc.org/github.com/zeeke/asptr)
+
 Get pointers from literals
-(as explained [by icza here](https://stackoverflow.com/a/30716481/1850410))
+(as explained by @icza [here](https://stackoverflow.com/a/30716481/1850410))
 
 ## Usage
 
