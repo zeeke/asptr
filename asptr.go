@@ -69,3 +69,13 @@ func Float32(v float32) *float32 {
 func Float64(v float64) *float64 {
 	return &v
 }
+
+// Complex64 returns a pointer to the input value
+func Complex64(v complex64) *complex64 {
+	return &v
+}
+
+// Complex128 returns a pointer to the input value
+func Complex128(v complex128) *complex128 {
+	return &v
+}
