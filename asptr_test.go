@@ -1,19 +1,21 @@
 package asptr
 
-import "fmt"
+func ExampleInt() {
+	var _ *int = Int(42)
+}
 
-// Basic usage of asptr
-func ExampleUsage() {
-	fmt.Println(*Int(42))
-	fmt.Println(*String("Hello World!"))
-	fmt.Println(*Bool(true))
-	fmt.Println(*Float32(4.2))
-	fmt.Println(*Float64(4.2))
+func ExampleString() {
+	var _ *string = String("Hello World!")
+}
 
-	// Output:
-	// 42
-	// Hello World!
-	// true
-	// 4.2
-	// 4.2
+func ExampleBool() {
+	var _ *bool = Bool(true)
+}
+
+func ExampleFloat32() {
+	var _ *float32 = Float32(4.2)
+}
+
+func ExampleFloat64() {
+	var _ *float64 = Float64(4.2)
 }
