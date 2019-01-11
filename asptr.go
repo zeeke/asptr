@@ -25,6 +25,31 @@ func Int64(v int64) *int64 {
 	return &v
 }
 
+// Uint returns a pointer to the input value
+func Uint(v int) *int {
+	return &v
+}
+
+// Uint8 returns a pointer to the input value
+func Uint8(v uint8) *uint8 {
+	return &v
+}
+
+// Uint16 returns a poUinter to the input value
+func Uint16(v uint16) *uint16 {
+	return &v
+}
+
+// Uint32 returns a pointer to the input value
+func Uint32(v uint32) *uint32 {
+	return &v
+}
+
+// Uint64 returns a pointer to the input value
+func Uint64(v uint64) *uint64 {
+	return &v
+}
+
 // String returns a pointer to the input value
 func String(v string) *string {
 	return &v
