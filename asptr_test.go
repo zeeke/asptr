@@ -2,6 +2,7 @@ package asptr
 
 import "fmt"
 
+// Basic usage of asptr
 func ExampleUsage() {
 	fmt.Println(*Int(42))
 	fmt.Println(*String("Hello World!"))
