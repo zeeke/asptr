@@ -18,3 +18,4 @@ var d *float32 = asptr.Float32(4.2)
 
 ```
 
+See [docs](https://godoc.org/github.com/zeeke/asptr) for all supported types
