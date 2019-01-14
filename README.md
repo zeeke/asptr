@@ -16,6 +16,19 @@ var b *string = asptr.String("Hello World")
 var c *bool = asptr.Bool(true)
 var d *float32 = asptr.Float32(4.2)
 
+// Initializa struct weith pointers
+
+type Conf struct {
+  A *string
+  B *int
+}
+
+c := Conf{
+  A: asptr.String("Hello!"),
+  B: asptr.Int(42),
+}
+
+
 ```
 
 See [docs](https://godoc.org/github.com/zeeke/asptr) for all supported types
