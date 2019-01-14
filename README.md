@@ -16,8 +16,7 @@ var b *string = asptr.String("Hello World")
 var c *bool = asptr.Bool(true)
 var d *float32 = asptr.Float32(4.2)
 
-// Initializa struct weith pointers
-
+// Initialize struct with pointers
 type Conf struct {
   A *string
   B *int
